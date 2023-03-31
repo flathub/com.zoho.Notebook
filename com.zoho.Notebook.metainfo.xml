@@ -4,7 +4,7 @@
   <id>com.zoho.Notebook</id>
   <launchable type="desktop-id">com.zoho.Notebook.desktop</launchable>
   <metadata_license>CC0-1.0</metadata_license>
-  <project_license>GPL-3.0</project_license>
+  <project_license>LicenseRef-proprietary</project_license>
   <name>Notebook</name>
   <summary>The most beautiful note-taking app across devices</summary>
   <description>
