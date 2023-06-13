@@ -31,8 +31,8 @@ modules:
       - desktop-file-edit --set-key=Exec --set-value="notebook %U" $FLATPAK_DEST/share/applications/notebook.desktop
     sources:
       - type: file
-        url: https://downloads.zohocdn.com/notebooklinux-desktop/Notebook-2.0.4.deb
-        sha256: 7df50a9f7cfb3d7fd7df6db865b5c187c6271439036850def5fe6d3a1c84469f
+        url: https://downloads.zohocdn.com/notebooklinux-desktop/Notebook-2.2.0.deb
+        sha256: cf1dda188ee71503f701d7fe1bde40a5f8e368a580f10370a0a4a87ace9f9c2c
       - type: script
         dest-filename: notebook.sh
         commands:
