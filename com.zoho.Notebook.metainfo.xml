@@ -32,6 +32,7 @@
   <developer id="com.zoho"><name>Zoho Corporation Pvt. Ltd.</name></developer>
   <update_contact>support@zohonotebook.com</update_contact>
   <releases>
+    <release version="3.7.5" date="2026-02-22"/>
     <release version="2.2.2" date="2023-07-29"/>
     <release version="2.2.0" date="2023-06-07"/>
   </releases>

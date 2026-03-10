@@ -1,9 +1,9 @@
 app-id: com.zoho.Notebook
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: '22.08'
+base-version: '25.08'
 command: notebook
 separate-locales: false
 finish-args:
@@ -31,8 +31,8 @@ modules:
       - desktop-file-edit --set-key=Exec --set-value="notebook %U" $FLATPAK_DEST/share/applications/notebook.desktop
     sources:
       - type: file
-        url: https://downloads.zohocdn.com/notebooklinux-desktop/Notebook-2.2.2.deb
-        sha256: bb32cc206fc8189d42c95e76901168a5535a94d3e1f5b4d0527b9cad1d2f3c12
+        url: https://downloads.zohocdn.com/notebooklinux-desktop/Notebook-3.7.5.deb
+        sha256: a5aa1ff73c862b2e4092d3d612998e1b3cc1ea5e578d4c55cc9e561440c3508f
       - type: script
         dest-filename: notebook.sh
         commands:
